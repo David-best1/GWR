@@ -6,7 +6,8 @@ using UnityEngine;
 
 public class get_gold : MonoBehaviour
 {
-    public TMP_Text CGold;
+    public TMP_Text Ore;
+    public TMP_Text Ingot;
     public int G;
 
     // Start is called before the first frame update
@@ -22,6 +23,21 @@ public class get_gold : MonoBehaviour
     }
     public void OnAnimationFinished()
     {
-        CGold.SetText((Int32.Parse(CGold.text) + G).ToString());
+        Ore.SetText((Int32.Parse(Ore.text) + G).ToString());
+    }
+    public void OnMouseDown()
+    {
+        if (tag == "Cave")
+        {
+            Ore.SetText((Int32.Parse(Ore.text) + G).ToString());
+        }
+        else if (tag == "Melting")
+        {
+            if (Int32.Parse(Ore.text) >= 10)
+            {
+                Ore.SetText((Int32.Parse(Ore.text) - 10).ToString());
+                Ingot.SetText((Int32.Parse(Ingot.text) + 1).ToString());
+            }
+        }
     }
 }
