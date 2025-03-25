@@ -7,6 +7,7 @@ using UnityEngine;
 public class Build : MonoBehaviour
 {
     public GameObject Building;
+    public GameObject BuildingObj;
     public GameObject Button;
     public TMP_Text CGold;
     public int Value;
@@ -27,6 +28,7 @@ public class Build : MonoBehaviour
         if (Int32.Parse(CGold.text) >= Value)
         {
             Building.SetActive(true);
+            BuildingObj.SetActive(true);
             Button.SetActive(false);
             CGold.SetText((Int32.Parse(CGold.text) - Value).ToString());
         }
