@@ -122,11 +122,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &103220342 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6824746026288583490, guid: 47abd76856daeb34b922a389b6040e69, type: 3}
-  m_PrefabInstance: {fileID: 233839458}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &134187228
 GameObject:
   m_ObjectHideFlags: 0
@@ -850,6 +845,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Final version of location
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 47abd76856daeb34b922a389b6040e69, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5252682845850649624, guid: 47abd76856daeb34b922a389b6040e69, type: 3}
       propertyPath: m_Name
       value: Warehouse
@@ -889,11 +888,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 933661826}
   m_SourcePrefab: {fileID: 100100000, guid: 47abd76856daeb34b922a389b6040e69, type: 3}
---- !u!1 &250499478 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: -1558721567721526513, guid: 47abd76856daeb34b922a389b6040e69, type: 3}
-  m_PrefabInstance: {fileID: 233839458}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &260361276
 GameObject:
   m_ObjectHideFlags: 0
@@ -1308,6 +1302,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 290616322}
   m_CullTransparentMesh: 1
+--- !u!1 &338854250 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1558721567721526513, guid: 47abd76856daeb34b922a389b6040e69, type: 3}
+  m_PrefabInstance: {fileID: 233839458}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &415945664
 GameObject:
   m_ObjectHideFlags: 0
@@ -1588,7 +1587,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48d7f55a67406344cbc75307f448883b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Building: {fileID: 250499478}
+  Building: {fileID: 338854250}
   BuildingObj: {fileID: 644833180}
   Button: {fileID: 1536739976}
   CGold: {fileID: 415945665}
@@ -1648,7 +1647,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Ore: {fileID: 415945665}
   Ingot: {fileID: 838691274}
-  G: 1
+  G: 5
 --- !u!65 &487243905
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2209,7 +2208,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Ore: {fileID: 415945665}
   Ingot: {fileID: 838691274}
-  G: 1
+  G: 0
 --- !u!65 &644833185
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2447,6 +2446,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &756228893 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6824746026288583490, guid: 47abd76856daeb34b922a389b6040e69, type: 3}
+  m_PrefabInstance: {fileID: 233839458}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &800165312 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2181743766629440291, guid: 47abd76856daeb34b922a389b6040e69, type: 3}
@@ -3651,7 +3655,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48d7f55a67406344cbc75307f448883b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Building: {fileID: 103220342}
+  Building: {fileID: 756228893}
   BuildingObj: {fileID: 1375238492}
   Button: {fileID: 177850781}
   CGold: {fileID: 838691274}
