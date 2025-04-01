@@ -9,6 +9,7 @@ public class get_gold : MonoBehaviour
     public TMP_Text Ore;
     public TMP_Text Ingot;
     public int G;
+    private Bust _Bust;
 
     // Start is called before the first frame update
     void Start()
@@ -29,6 +30,8 @@ public class get_gold : MonoBehaviour
     {
         if (tag == "Cave")
         {
+            _Bust = GetComponent<Bust>();
+            _Bust.Bust_Click();
             Ore.SetText((Int32.Parse(Ore.text) + G).ToString());
         }
         else if (tag == "Melting")
