@@ -10,11 +10,12 @@ public class get_gold : MonoBehaviour
     public TMP_Text Ingot;
     public int G;
     private Bust _Bust;
+    public CountHouses Count_Houses;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -24,7 +25,7 @@ public class get_gold : MonoBehaviour
     }
     public void OnAnimationFinished()
     {
-        Ore.SetText((Int32.Parse(Ore.text) + G).ToString());
+        Ore.SetText((Int32.Parse(Ore.text) + G * Count_Houses.activeHousesCount).ToString());
     }
     public void OnMouseDown()
     {
@@ -32,7 +33,7 @@ public class get_gold : MonoBehaviour
         {
             _Bust = GetComponent<Bust>();
             _Bust.Bust_Click();
-            Ore.SetText((Int32.Parse(Ore.text) + G).ToString());
+            Ore.SetText((Int32.Parse(Ore.text) + G * Count_Houses.activeHousesCount).ToString());
         }
         else if (tag == "Melting")
         {
