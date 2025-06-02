@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Project
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 321}
   m_MaxSize: {x: 10000, y: 10000}
@@ -399,7 +399,7 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
     m_HSlider: 0
-    m_VSlider: 0
+    m_VSlider: 1
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
@@ -412,18 +412,18 @@ MonoBehaviour:
       y: 21
       width: 1124
       height: 540
-    m_Scale: {x: 0.703125, y: 0.703125}
-    m_Translation: {x: 562, y: 270}
+    m_Scale: {x: 0.71080726, y: 0.71080726}
+    m_Translation: {x: 562, y: 272.94998}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -799.2889
+      x: -790.6503
       y: -384
-      width: 1598.5778
-      height: 768
+      width: 1581.3007
+      height: 759.6996
     m_MinimalGUI: 1
   m_defaultScale: 0.703125
   m_LastWindowPixelSize: {x: 1124, y: 561}
@@ -471,7 +471,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 10fbffff
+      m_ExpandedIDs: 04eaffffb6ebffff16fbffffd463000044640000906400009c640000da6400002e660000ce66000098670000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -877,9 +877,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 113.24637, y: -35.76343, z: 137.49635}
+    m_Target: {x: 782.5508, y: 300.4058, z: 376.56244}
     speed: 2
-    m_Value: {x: 113.24637, y: -35.76343, z: 137.49635}
+    m_Value: {x: 782.5508, y: 300.4058, z: 376.56244}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -907,17 +907,17 @@ MonoBehaviour:
       m_Size: {x: 1, y: 1}
     yGrid:
       m_Fade:
-        m_Target: 1
+        m_Target: 0
         speed: 2
-        m_Value: 1
+        m_Value: 0
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
     zGrid:
       m_Fade:
-        m_Target: 0
+        m_Target: 1
         speed: 2
-        m_Value: 0
+        m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
@@ -925,17 +925,17 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.101547666, y: 0.39706892, z: -0.04425604, w: 0.911082}
+    m_Target: {x: 0, y: 0, z: 0, w: 1}
     speed: 2
-    m_Value: {x: 0.101547666, y: 0.3970689, z: -0.04425604, w: 0.91108197}
+    m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 103.86714
+    m_Target: 504.25574
     speed: 2
-    m_Value: 103.86714
+    m_Value: 504.25574
   m_Ortho:
-    m_Target: 0
+    m_Target: 1
     speed: 2
-    m_Value: 0
+    m_Value: 1
   m_CameraSettings:
     m_Speed: 2
     m_SpeedNormalized: 1
@@ -999,11 +999,11 @@ MonoBehaviour:
     - e00: 1.049941
       e01: 0
       e02: 0
-      e03: -112.13232
+      e03: 219.86772
       e10: 0
       e11: 1.049941
       e12: 0
-      e13: -69.38881
+      e13: -94.38882
       e20: 0
       e21: 0
       e22: 1
@@ -1105,7 +1105,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/UI
+    - Assets/Scripts
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1113,16 +1113,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/UI
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: "C:\\Users\\\u0421\u0430\u043C\u0432\u0435\u043B\\Documents\\GitHub\\_gwr\\Gold_West_Rush"
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 026a0000
-    m_LastClickedID: 27138
-    m_ExpandedIDs: 00000000ee69000000ca9a3b
+    m_SelectedIDs: fe690000
+    m_LastClickedID: 27134
+    m_ExpandedIDs: 00000000ee690000fa69000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1177,7 +1177,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000d48000006288000078720000a2750000d67a0000e67100008e71000000000000b2710000b8710000e0790000da790000847800000663000044630000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1323,4 +1323,4 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 26356
+  m_LastSelectedObjectID: 25938
